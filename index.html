@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reprograma</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <!--
+    ================================= 
+               CONTAINER
+    =================================  
+             
+    <div class="container">
+            <h2>Hello world!</h2>
+        </div>
+        <div class="container-fluid">
+            <h2>Teste</h2>
+        </div>
+    <header>  
+
+    ================================= 
+             MENU DROPDOWN 
+    =================================  
+     -->
+    <nav class="navbar" style="background-color: hotpink">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">Reprograma</a>
+                <button class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu-reprograma">
+                </button>
+            </div>
+            <ul id="menu-reprograma" class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2</a></li>
+                <li><a href="">Menu 3</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--
+     ================================= 
+            IMAGEM RESPONSIVA
+     =================================
+      -->
+
+    <div class="container">
+    <img src="assets/img/cat.jpg" class="img-responsive" alt="Gatíneo">
+    </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-8">
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+        </div>
+        <div class="col-md-4 col-md-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ut numquam nobis ducimus eum quisquam, quasi rerum labore ea, ex aliquid velit maxime fugiat! Ipsa suscipit aliquam aperiam facere, nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+               <img src="http://via.placeholder.com/250x250" class="img-rounded">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="http://via.placeholder.com/250x250" class="img-circle">
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="http://via.placeholder.com/250x250" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nome</th>
+                            <th>Sobrenome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Helena</td>
+                            <td>Strada</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Debys</td>
+                            <td>Retrô</td>
+                        </tr>
+                    </tbody>                   
+                 </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6" style="background-color: deeppink">teste</div>
+            <div class="col-xs-12 col-sm-6 col-md-4" style="background-color: darkviolet">teste</div>
+            <div class="col-xs-12 col-sm-6 col-md-2" style="background-color: lightseagreen">teste</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat adipisci quam quasi voluptatem assumenda ipsum ratione aut sint totam non earum ab explicabo, odit quaerat molestias consectetur est error tempora.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit temporibus laboriosam, optio consequuntur recusandae sint dicta quia, quibusdam dolorum porro consectetur quam reprehenderit dolores doloribus aspernatur. Officiis ipsam aliquid eligendi.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button> 
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="sel1"></label>
+                <select id="sel1" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>                   
+                </select>
+                <br>
+                <label for="sel2"></label>
+                <select id="sel2" multiple class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>                   
+                    <option>5</option>                   
+                </select>                
+            </div>
+        </form>
+    </div>
+
+   
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/navbar-animation-fix.js"></script>
+</body>
+
+</html>
